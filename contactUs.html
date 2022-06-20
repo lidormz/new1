@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html>
+<html lang="">
+<head>
+    <link rel="icon" href="images/meowtel-cat-mascot-footer.png" />
+    <meta charset="utf-8" />
+    <title>kit for cat-צור קשר</title>
+    <meta name="description" content="יצירת קשר עם צוות האתר" />
+    <meta name="keywords" content="צור קשר,טלפון,מייל" />
+    <meta name="author" content="לידור מזגאוקר וקרן יצחקי" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+    <!-- JS -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+
+
+</head>
+<body>
+    <div id="contact">
+        <header>
+            <div id="odot">
+                <div id="start">
+                    <span class="logo"><img src="images/meowtel-cat-mascot-footer.png" /></span>
+                    <nav class="nav1">
+                        <ul class="up">
+                            <li><a href="home.html">דף הבית</a></li>
+                            <li>
+                                <a href="cat.html">סוגי חתולים</a>
+                                <ul>
+                                    <li>
+                                        <a href="cat - list.html">טיפים</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="about.html">אודות</a></li>
+                            <li><a href="contactUs.html">צור קשר</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <br />
+        <br />
+        <nav>
+            <ol>
+                <li><a href="home.html">דף הבית</a></li>
+                <li><a href="contactUs.html">צור קשר</a></li>
+            </ol>
+        </nav>
+        <br />
+        <div id="t">
+            <div id="form">
+                <input type="hidden" id="send2" name="keren" value="keren.y123@gmail.com" />
+                <br />
+                <h1>יש לך שאלות נוספות?</h1>
+                <h2>השאר פרטיך ונחזור אליך במהרה</h2>
+                <form>
+                    <label>
+                        שם פרטי* <br />
+                        <input type="text" name="f.name" placeholder="שם פרטי" required />
+                        <br />
+                    </label>
+                    <br />
+                    <label>
+                        שם משפחה* <br />
+                        <input type="text" name="l.name" placeholder="שם משפחה" required />
+                        <br />
+                    </label>
+                    <br />
+                    <label>
+                        מין*
+                        <input type="radio" id="male" name="gender" required /> זכר
+                        <input type="radio" id="fmale" name="gender" required /> נקבה
+                        <input type="radio" id="fmale" name="gender" required /> אחר
+                    </label>
+                    <br />
+                    <br />
+                    <label>
+                        טלפון נייד* <br />
+                        <input type="tel" name="phone" placeholder="טלפון נייד" required />
+                        <br />
+                    </label>
+                    <br />
+                    <label>
+                        דואר אלקטרוני* <br />
+                        <input type="email" name="e-mail" placeholder="e-mail" required />
+                        <br />
+                    </label>
+                    <br />
+                    <label>
+                        תעודת זהות* <br />
+                        <input type="tel" name="id" placeholder="הכנס ת.ז" required />
+                        <br />
+                        נא להקליד 9 ספרות
+                        <br />
+                    </label>
+                    <h2>סיבת פנייה</h2>
+                    מה סיבת הפניה?* <br />
+                    <select id="kors name" required>
+                        <option value="" hidden>בחרו ערך מתאים</option>
+                        <option value="1"> רוצה לאמץ חתול</option>
+                        <option value="2"> שאלה בקשר לגידול</option>
+                        <option value="3">אני עובר דירה</option>
+                        <option value="4"> אחר</option>
+                    </select>
+                    <br />
+                    <br />
+                    <input type="submit" id="send" value="שלח" />
+                    <div id="feedback"></div>
+                </form>
+                <br />
+                <form>
+                    <input type="hidden" id="send2" name="keren" value="keren.y123@gmail.com" />
+                    שאלות נוספות? <br />
+                    <textarea id="myTextarea" placeholder="כתוב שאלות נוספות" row="5"> </textarea>
+                    <input type="submit" id="send" value="submit" />
+                    <div id="feedback2"></div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

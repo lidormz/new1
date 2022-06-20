@@ -1,0 +1,487 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+
+body {
+    direction: rtl;
+    line-height: 200%;
+    font-family: Assistant;
+    width: 1508px;
+}
+#start {
+    background-color: lightpink;
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+}
+
+.cat {
+    width: 20%;
+    height: auto;
+}
+
+h1 {
+    position: static;
+    font-size: 50px;
+    color: whitesmoke;
+    padding: 26px;
+    font-family: Fredoka;
+}
+h2 {
+    position: static;
+    font-size: 30px;
+    font-family: Assistant;
+    color: lightpink;
+    padding: 26px;
+}
+h3 {
+    position: static;
+    font-size: 20px;
+    font-family: Assistant;
+    color: black;
+    padding-right: 45px;
+}
+p {
+    font-family: Assistant;
+    padding-right: 79px;
+    margin-left: 117px;
+    
+}
+.kiti {
+    position: absolute;
+    display: inline-block;
+    margin-right: 1122px;
+    top: 530px;
+    padding-bottom: 580px;
+    width: 200px;
+}
+.logo img {
+    right: 7px;
+    position: fixed; /*שיהיה באותה שורה של הנושאים*/
+    display: inline-block;
+    width:36px;
+    
+}
+nav ol li { /*פירורי לחם*/
+    display:inline-block;
+}
+    nav ol li:after { /*פירורי לחם*/
+        content: ">"
+    }
+    nav ol li:last-child:after { /*פירורי לחם*/
+        content: "";
+    }
+ol li a { /*מוריד את הקו של הקישור*/
+    text-decoration: none;
+    color: palevioletred;
+}
+ol li a:hover { /*מוריד את הקו של הקישור*/
+    text-decoration: none;
+    color: cornflowerblue;
+}
+    #m { /*מסגרת אודות*/
+    text-align: center;
+    border: 30px solid pink;
+    width: 1096px;
+    height: 574px;
+    margin-right: 12%;
+}
+ul li a { /*מוריד את הקו של הקישור*/
+    text-decoration: none;
+    color: black;
+}
+
+.up li { /*אחראי על הרשימה*/
+    margin-inline: 12px;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    float: right;
+    font-family: Assistant;
+    margin-top:7px;
+}
+    .up li a:hover { /*אחראי על הרשימה*/
+        background-color: palevioletred;
+        text-align:center;
+    }
+.nav1 ul li ul { /*מעלים את טיפים*/
+    display: none;
+    position: absolute;
+}
+/*.nav1 ul li ul li {
+        display: block;
+    }*/
+
+.nav1 ul li {
+    background-color: lightpink;  
+}
+    .nav1 ul li:hover ul { /*מציג את טיפים*/
+        display: block;
+       /* float: unset;*/
+        background-color: lightpink;
+        margin-left: 3%;
+        text-align: right;
+        float: right;
+        font-family: Assistant;
+       
+    }
+#b p { /*טקסט בית*/
+    text-align: right;
+    padding-right: 79px;
+    margin-left: 117px;
+    color: white;
+    font-family: Assistant;
+}
+#b h2 a { /*קישור בית*/
+    text-decoration: none;
+    color: white;
+}
+    #b h2 a:hover {
+        color: blue;
+    }
+.s {
+    margin-top: 89px;
+    margin-right: 916px;
+}
+    #container {
+        /*background-color: black;*/
+        height: 100%;
+        background-image: url('../images/beck.jpg');
+        width: 100%;
+        position: fixed;
+    }
+#b { /*מסגרת דף בית*/
+    text-align: center;
+    border: 0px solid pink;
+    width: 1096px;
+    height: 574px;
+    margin-right: 12%;
+}
+#contact { /*רקע צור קשר*/
+    background-image: url('../images/kersher.jpg');
+    background-repeat: no-repeat;
+}
+#t { /*תיבה צור קשר*/
+    text-align: right;
+    border: 0px solid pink;
+    width: 1096px;
+    height: 574px;
+    margin-right: 12%;
+    display: inline-block;}
+
+.avisini {
+    float: right;
+    width: 20%;
+    position: absolute;
+    top: 257px;
+}
+.avisini2 {
+    float: left;
+    padding-right: 523px;
+    margin: 11px;
+    margin-left: 53px;
+    font-size: 20px;
+   
+}
+
+.bor {
+    float: left;
+    width: 40%;    
+    margin-left: 36px;
+}
+
+.briti {
+    float: right;
+    height: 30%;
+    width: 20%;
+}
+.sfinx {
+    float: right;
+    height: 30%;
+    width: 20%;
+}
+.siami {
+    float: right;
+    height: 30%;
+    width: 20%;
+}
+.rusi {
+    float: right;
+    height: 30%;
+    width: 20%;
+}
+.mainkon {
+    float: right;
+    height: 30%;
+    width: 20%;
+}
+.sibiri {
+    float: right;
+    height: 30%;
+    width: 20%;
+}
+.bangale {
+    float: right;
+    height: 30%;
+    width: 20%;
+}
+
+.avisini2 {
+   
+}
+
+.bor2 {
+    padding-right: 8px;
+    margin: 34px;
+    padding-left: 154px;
+    font-size: 20px;
+}
+
+.briti2 {
+    padding-right: 700px;
+    margin: 80px;
+    margin-left: 300px;
+}
+.sfinx2 {
+    padding-right: 523px;
+    margin: 80px;
+    margin-left: 230px;
+}
+.siami2 {
+    padding-right: 523px;
+    margin: 80px;
+    margin-left: 230px;
+}
+.rusi2 {
+    padding-right: 523px;
+    margin: 80px;
+    margin-left: 230px;
+}
+.mainkon2 {
+    padding-right: 523px;
+    margin: 80px;
+    margin-left: 230px;
+}
+.sibiri2 {
+    padding-right: 523px;
+    margin: 80px;
+    margin-left: 230px;
+}
+.bangale2 {
+    padding-right: 523px;
+    margin: 80px;
+    margin-left: 230px;
+}
+#cat3 {
+    float: right;
+    height: 5%;
+    width: 6%;
+}
+#sad_cat {
+    height: 36px;
+    width: 36px;
+    position: absolute;
+    display: inline-block;
+    top: 458px;
+    right: 102px;
+}
+#dont_do {
+    padding-right: 33px;
+}
+#sleep {
+    height: 36px;
+    width: 36px;
+    position: absolute;
+    display: inline-block;
+    top: 745px;
+    right: 106px;
+}
+#sleep2 {
+    padding-right: 45px;
+}
+#happy {
+    height: 36px;
+    width: 36px;
+    position: absolute;
+    display: inline-block;
+    top: 263px;
+    right: 105px;
+}
+
+/*#happy2 {
+    padding-right: 45px;
+}*/
+
+#black {
+    height: 36px;
+    width: 36px;
+    position: absolute;
+    display: inline-block;
+    top: 554px;
+    right: 107px;
+}
+
+/*#black2 {
+    padding-right: 29px;
+}*/
+#time {
+    height: 36px;
+    width: 36px;
+    position: absolute;
+    display: inline-block;
+    top: 368px;
+    right: 104px;
+}
+
+/*#time2 {
+    padding-right: 41px;
+}*/
+#time_to {
+    height: 36px;
+    width: 36px;
+    position: absolute;
+    display: inline-block;
+    top: 646px;
+    right: 106px;
+    
+}
+
+/*#time_to2 {
+    padding-right: 41px;
+}*/
+#foot {
+    height: 36px;
+    width: 36px;
+    position: absolute;
+    display: inline-block;
+    top: 989px;
+    right: 108px;
+}
+
+/*#foot2 {
+    padding-right: 41px;
+}*/
+#carrier {
+    height: 36px;
+    width: 36px;
+    position: absolute;
+    display: inline-block;
+    top: 1148px;
+    right: 107px;
+}
+
+/*#carrier2 {
+    padding-right: 41px;
+}*/
+#weary {
+    height: 36px;
+    width: 36px;
+    position: absolute;
+    display: inline-block;
+    top: 1275px;
+    right: 108px;
+}
+
+/*#weary2 {
+    padding-right: 41px;
+}*/
+#birdhouse {
+    height: 36px;
+    width: 36px;
+    position: absolute;
+    top: 1849px;
+    right: 107px;
+}
+
+ /*   #birdhouse2 {
+        padding-right: 41px;
+    }*/
+#chair {
+    height: 36px;
+    width: 36px;
+    position: absolute;
+    top: 1564px;
+    right: 107px;
+}
+
+/*#chair2 {
+    padding-right: 41px;
+}*/
+#house {
+    height: 36px;
+    width: 36px;
+    position: absolute;
+    top: 1401px;
+    right: 108px;
+}
+
+/*#house2 {
+    padding-right: 41px;
+}*/
+/*--------------------------*/
+#tip  {/*רקע טיפים*/
+    text-align: right;
+    border: 2px solid pink;
+    width: 1288px;
+    height: 2035px;
+    margin-right: 10px;
+    display: inline-block;
+}
+p > img { /*מוריד לתמונה רקע טיפים*/
+    border: none;
+}
+p > ul > li {
+    list-style:none;
+    font-family: Assistant;
+    padding-right: 79px;
+    margin-left: 117px;
+}
+#cats1 > h1 { /*משנה צבע כותרת*/
+    color: black;
+}
+#cat {
+    text-align: right;
+    border: 2px solid pink;
+    width: 1288px;
+    height: 2035px;
+    margin-right: 10px;
+    display: inline-block;
+}
+#cat > h2{
+    text-align:center;
+}
+/*--------------------------*/
+#b1 {
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+#b2 {
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+#b3 {
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+#b4 {
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+#b5 {
+    padding-right: 91px;
+    position: absolute;
+    text-decoration: none;
+}
+#table2 {
+    border: 2px solid pink;
+    width: 281px;
+    height: 105px;
+    margin-right: 597px;
+    display: inline-block;
+}
